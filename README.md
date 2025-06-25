@@ -4,7 +4,7 @@ Una aplicación web potente para encontrar evidencias de uso de marcas comercial
 
 ## 🌐 Demo en Vivo
 
-**Accede a la aplicación aquí:** [https://tu-usuario.github.io/ai-trademark-proof-assistant/](https://tu-usuario.github.io/ai-trademark-proof-assistant/)
+**Accede a la aplicación aquí:** [https://isandi98.github.io/AI_trademark_proof_assistant/](https://isandi98.github.io/AI_trademark_proof_assistant/)
 
 ## 🚀 Características
 

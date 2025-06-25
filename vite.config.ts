@@ -5,8 +5,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     
     // Para GitHub Pages, el base path es el nombre del repositorio
-    // Cambia 'ai-trademark-proof-assistant' por el nombre real de tu repositorio
-    const base = mode === 'production' ? '/ai-trademark-proof-assistant/' : '/';
+    const base = mode === 'production' ? '/AI_trademark_proof_assistant/' : '/';
     
     return {
       base,

@@ -1,5 +1,5 @@
 # Usar imagen oficial de Node.js
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Establecer directorio de trabajo
 WORKDIR /app
@@ -7,8 +7,8 @@ WORKDIR /app
 # Copiar archivos de dependencias
 COPY package*.json ./
 
-# Instalar dependencias
-RUN npm ci --only=production
+# Instalar dependencias (usando install en lugar de ci para evitar problemas de sincronización)
+RUN npm install --omit=dev
 
 # Copiar código fuente
 COPY . .

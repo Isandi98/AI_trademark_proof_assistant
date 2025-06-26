@@ -4,8 +4,8 @@ import { defineConfig, loadEnv } from 'vite';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     
-    // Para GitHub Pages, el base path es el nombre del repositorio
-    const base = mode === 'production' ? '/AI_trademark_proof_assistant/' : '/';
+    // Para Cloud Run, usamos base path raíz
+    const base = '/';
     
     return {
       base,

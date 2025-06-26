@@ -23,4 +23,6 @@ RUN npm install -g serve
 EXPOSE $PORT
 
 # Comando para ejecutar la aplicación usando la variable $PORT
-CMD ["sh", "-c", "serve -s dist -l ${PORT:-8080}"] 
+CMD ["sh", "-c", "serve -s dist -l ${PORT:-8080}"]
+
+# Optimizado para Google Cloud Run - v2 
